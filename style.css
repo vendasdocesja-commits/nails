@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 /* -------- Nail-shaped signature element -------- */
 .nail-frame {
-  border-radius: 50% 50% 46% 46% / 62% 62% 38% 38%;
+  border-radius: 42% 42% 10% 10% / 46% 46% 10% 10%;
   overflow: hidden;
   position: relative;
   box-shadow: 0 18px 40px -18px rgba(60, 42, 44, 0.45);
@@ -84,8 +84,7 @@ h1, h2, h3 {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(251, 245, 244, 0.88);
-  backdrop-filter: blur(10px);
+  background: var(--blush);
   border-bottom: 1px solid var(--line);
 }
 
